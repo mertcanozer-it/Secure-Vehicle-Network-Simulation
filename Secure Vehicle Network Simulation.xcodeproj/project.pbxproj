@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8FAF5BE02A4C8AF800B45C0E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8FAF5BDF2A4C8AF800B45C0E /* main.cpp */; };
+		8FAF5BE82A4CB34B00B45C0E /* Vehicle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8FAF5BE62A4CB34B00B45C0E /* Vehicle.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		8FAF5BDC2A4C8AF800B45C0E /* Secure Vehicle Network Simulation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Secure Vehicle Network Simulation"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FAF5BDF2A4C8AF800B45C0E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8FAF5BE62A4CB34B00B45C0E /* Vehicle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Vehicle.cpp; sourceTree = "<group>"; };
+		8FAF5BE92A4CB43900B45C0E /* Vehicle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vehicle.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				8FAF5BDF2A4C8AF800B45C0E /* main.cpp */,
+				8FAF5BE62A4CB34B00B45C0E /* Vehicle.cpp */,
+				8FAF5BE92A4CB43900B45C0E /* Vehicle.h */,
 			);
 			path = "Secure Vehicle Network Simulation";
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FAF5BE82A4CB34B00B45C0E /* Vehicle.cpp in Sources */,
 				8FAF5BE02A4C8AF800B45C0E /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
